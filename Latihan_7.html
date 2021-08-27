@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Control</title>
+    </head>
+    <body>
+        <h3>Form Control pada HTML</h3>
+        <form class="" action="index.html" method="post">
+            <table cellpadding="5">
+                <tr>
+                    <td>Input Text</td>
+                    <td><input type="text" name="teks" value="" placeholder="Nama Lengkap"</td>
+                    <!-- placeholder = Untuk watermark pada inputan -->
+                </tr>
+                <tr>
+                    <td>Textarea</td>
+                    <td><textarea name="name" rows="5" cols="30" placeholder="Alamat Lengkap"></textarea></td>
+                    <!-- cols = Untuk menentukan jumlah karakter menyamping
+                    rows = Untuk menentukan jumlah baris textarea -->
+                </tr>
+                <tr>
+                    <td>Input Number</td>
+                    <td><input type="number" name="angka" value="" placeholder="Usia"</td>
+                </tr>
+                <tr>
+                    <td>Input Password</td>
+                    <td><input type="password" name="password" value="" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td>Input Date</td>
+                    <td><input type="date" name="tanggal" value=""></td>
+                </tr>
+                <tr>
+                    <td>Input Time</td>
+                    <td><input type="time" name="jam" value=""></td>
+                </tr>
+                <tr>
+                    <td>Input Range</td>
+                    <td><input type="range" name="range" value=""></td>
+                </tr>
+                <tr>
+                    <td>Input Radio</td>
+                    <td>
+                        <input type="radio" name="gender" value="L"> Pria
+                        <input type="radio" name="gender" value="P"> Wanita
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Checkbox</td>
+                        <td>
+                            <input type="checkbox" name="hobi []" value="sepak bola"> Sepak Bola
+                            <input type="checkbox" name="hobi []" value="basket"> Basket
+                            <input type="checkbox" name="hobi []" value="voli"> Bola Voli
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Combo Box</td>
+                        <td>
+                            <select name="jurusan">
+                                <option value="">--Pilih Jurursan--</option>
+                                <option value="RPL">Rekayasa Perangkat Lunak</option>
+                                <option value="TKJ">Teknik Komputer dan Jaringan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Input File</td>
+                        <td><input type="file" name="file" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Input Color</td>
+                        <td><input type="color" name="warna" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Tombol</td>
+                        <td>
+                            <button type="button" name="button">Tombol Biasa</button>
+                            <button type="submit" name="button">Tombol Submit Data</button>
+                            <!-- submit = Untuk mengumpulkan data yang ada pada form -->
+                            <button type="reset" name="button">Tombol Reset</button>
+                            <!-- reset = Untuk mereset inputan yang sudah terisi -->
+                        </td>
+                    </tr>
+            </table>
+        </form>
+    </body>
+
+    <head>
+        <title>Tautan/Link</title> 
+    </head>
+    <body>
+        <h3>Daftar Isi</h3>
+        <ul>
+            <!-- Tautan ke file yang lain -->
+            <li> <a href="Latihan_1.html">Format Text 1 HTML</a> </li>
+            <li> <a href="Latihan_2.html">Format Text 2 HTML</a> </li>
+            <li> <a href="Latihan_3.html">List HTML</a> </li>
+            <li> <a href="Latihan_4.html">Image, Audio, Video HTML</a> </li>
+            <li> <a href="Latihan_5.html">Tabel 1 HTML</a> </li>
+            <li> <a href="Latihan_6.html">Tabel 2 HTML</a> </li>
+            <!-- href = Untuk destinasi tautan yang dikehendaki -->
+            
+            <!-- Tautan ke external address -->
+            <li> <a href="https://instagram.com/">Instagram</a> </li>
+            <li> <a href="https://id.pinterest.com/">Pinterest</a> </li>
+            
+            <!-- Tautan ke tab baru -->
+            <li> <a href="https://youtube.com/" target="_blank">Youtube - New tab</a> </li>   
+
+        </ul>
+    </body>
+</html>
