@@ -11,6 +11,7 @@
                     <td>Input Text</td>
                     <td><input type="text" name="teks" value="" placeholder="Nama Lengkap"</td>
                     <!-- placeholder = Untuk watermark pada inputan -->
+                    <!-- Diberi batasan min="20" max="100"-->
                 </tr>
                 <tr>
                     <td>Textarea</td>
@@ -47,8 +48,8 @@
                     </tr>
                     <tr>
                         <td>Checkbox</td>
-                        <td>
-                            <input type="checkbox" name="hobi []" value="sepak bola"> Sepak Bola
+                        <td> <!-- Required = dibutuhkan, harus diisi-->
+                            <input type="checkbox" name="hobi []" value="sepak bola" required> Sepak Bola
                             <input type="checkbox" name="hobi []" value="basket"> Basket
                             <input type="checkbox" name="hobi []" value="voli"> Bola Voli
                         </td>
